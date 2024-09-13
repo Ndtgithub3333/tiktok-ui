@@ -44,6 +44,16 @@ const MENU_ITEMS = [
                     code: 'vi',
                     title: 'Tiếng việt',
                 },
+                {
+                    type: 'language',
+                    code: 'hu',
+                    title: 'Magyar',
+                },
+                {
+                    type: 'language',
+                    code: 'cs',
+                    title: 'Čeština',
+                },
             ],
         },
     },
