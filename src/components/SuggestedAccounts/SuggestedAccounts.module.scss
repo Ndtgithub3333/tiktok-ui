@@ -9,16 +9,17 @@
 }
 
 .account-item {
-display: flex;
-align-items: center;
-padding: 8px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
 }
 
 .avatar {
-width: 32px;
-height: 32px;
-border-radius: 50%;
-object-fit: cover;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .item-info {
@@ -33,10 +34,10 @@ object-fit: cover;
     line-height: 1;
 }
 
-.check{
+.check {
     margin-left: 4px;
     font-size: 1.4rem;
-    color: #20d5ec
+    color: #20d5ec;
 }
 
 .name {
@@ -44,7 +45,7 @@ object-fit: cover;
     color: #161823bf;
 }
 
-.more-btn{
+.more-btn {
     padding: 8px;
     font-size: 1.4rem;
     font-weight: 700;

@@ -19,7 +19,7 @@ function Sidebar() {
         <aside className={cx('wrapper')}>
             <Menu>
                 <MenuItem
-                    title="For Your"
+                    title="For You"
                     to={config.routes.home}
                     icon={<HomeIcon />}
                     activeIcon={<HomeActiveIcon />}
